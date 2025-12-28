@@ -4,9 +4,9 @@ const profileConfig = {
     // Informations de base
 
 
-    name: "COCA",
-    bio: "SALAM",
-    profileImage: "https://i.ibb.co/NgKMhgMT/cocacola.jpg",
+    name: "walid",
+    bio: "matbaati",
+    profileImage: "https://thumbs.dreamstime.com/b/portrait-black-winged-stilt-walks-wood-surface-has-beautiful-reflection-water-portrait-black-249015649.jpg",
     
 
 
@@ -41,8 +41,8 @@ const profileConfig = {
         tiktok: true,        // Afficher TikTok
         whatsapp: true,      // Afficher WhatsApp
         telegram: true,      // Afficher Telegram
-        linkedin: false,     // Afficher LinkedIn (mettre true pour l'activer)
-        website: false,       // Afficher Site Web
+        linkedin: true,     // Afficher LinkedIn (mettre true pour l'activer)
+        website: true,       // Afficher Site Web
         maps: true,          // Afficher Maps
         phone: true,         // Afficher Téléphone
         snapchat: true,      // Afficher Snapchat
@@ -83,3 +83,4 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.profileConfig = profileConfig;
 }
+
